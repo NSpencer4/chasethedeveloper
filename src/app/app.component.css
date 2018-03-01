@@ -4,12 +4,6 @@
   margin-bottom: 0;
 }
 
-#intro-section{
-  background-image: url("../assets/snowboarding.jpg");
-  background-position: center;
-  background-size: cover;
-}
-
 .overlay {
     background-color: #111111;
     position: absolute;

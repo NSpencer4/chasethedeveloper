@@ -1,17 +1,16 @@
 <div id="home-container">
   <div id="intro-section">
-    <div class="overlay" [style.height.px]="windowHeight"></div>
-    <div [style.height.px]="windowHeight"
-         class="container">
-      <div class="row">
-        <div id="main-marquee">
-          <div class="row">
-            <div [style.top.px]="halfWindowHeight" class="col-sm-12">
-              <div id="intro-container">
-                <h1 id="intro-name">Chase Spencer</h1>
-                <h2 id="intro-title">Full-Stack Developer</h2>
-              </div>
-            </div>
+    <div class="overlay"></div>
+    <div class="row">
+      <div id="main-marquee">
+        <div class="col-sm-12">
+          <video id="hero-video" autoplay="autoplay" muted="muted" loop="loop" playsinline=""
+                 style="width: 100%; height: 100%; object-fit: cover;">
+            <source src="../assets/primary.mp4">
+          </video>
+          <div id="intro-container">
+            <h1 id="intro-name">Chase Spencer</h1>
+            <h2 id="intro-title">Full-Stack Developer</h2>
           </div>
         </div>
       </div>
@@ -69,7 +68,7 @@
         <div class="col-sm-9">
           <h3>Careers</h3>
         </div>
-        </div>
+      </div>
 
       <div class="row top-spacing">
         <div class="col-sm-3">
