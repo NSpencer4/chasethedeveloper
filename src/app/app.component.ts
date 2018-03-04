@@ -7,15 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppComponent implements OnInit {
 
-    public constructor(){
-    }
+    public constructor(){}
 
     windowWidth: any;
     windowHeight: any;
-    halfWindowHeight: any;
 
     ngOnInit() {
       this.windowHeight = window.innerHeight;
-      this.halfWindowHeight = this.windowHeight/6;
+      this.windowWidth = window.innerWidth;
     }
 }
