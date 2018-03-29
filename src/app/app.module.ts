@@ -11,9 +11,11 @@ import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import 'hammerjs';
 import { Ng2CompleterModule } from 'ng2-completer';
 import { AccordionModule } from 'primeng/components/accordion/accordion';
-import {CalendarModule, SharedModule, ChartModule} from 'primeng/primeng';
+import {CalendarModule, SharedModule} from 'primeng/primeng';
 import { AppRoutingModule } from './app-routing.module';
 import { MdIconModule } from '@angular/material';
+import { ChartModule } from 'primeng/components/chart/chart';
+import 'chart.js/dist/Chart.min.js';
 
 // Components
 import { AppComponent } from './app.component';

@@ -1,19 +1,36 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { ChartModule } from 'primeng/components/chart/chart';
+import { Chart } from 'chart.js';
 
 @Component({
     selector: 'app-root',
     templateUrl: './app.component.html',
     styleUrls: ['./app.component.css']
 })
-export class AppComponent implements OnInit {
 
-    public constructor(){}
+export class AppComponent {
+  data: any;
+  options: any;
 
-    windowWidth: any;
-    windowHeight: any;
+  public constructor() {
+    this.data = {
+        datasets: [
+            {
+                data: [80, 20],
+                backgroundColor: [
+                    '#3ebdf0',
+                    '#cbcacb'
+                ],
+                hoverBackgroundColor: [
+                    '#3ebdf0',
+                    '#cbcacb'
+                ]
+            }]
+        };
 
-    ngOnInit() {
-      this.windowHeight = window.innerHeight;
-      this.windowWidth = window.innerWidth;
-    }
+    this.options = {
+      cutoutPercentage: 80
+    };
+    Chart.defaults.global.tooltips.enabled = false;
+  }
 }

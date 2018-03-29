@@ -3,9 +3,6 @@ threadsafe: yes
 api_version: 1
 
 handlers:
-- url: /dev.*
-  script: server.dev.app
-
 - url: /(.*\.woff)
   mime_type: application/x-font-woff
   static_files: dist/\1
@@ -19,6 +16,14 @@ handlers:
 - url: /favicon.ico
   static_files: dist/favicon.ico
   upload: dist/favicon.ico
+
+- url: /columbus.jpg
+  static_files: dist/assets/columbus.jpg
+  upload: dist/assets/columbus.jpg
+
+- url: /snowboarding.jpg
+  static_files: dist/assets/snowboarding.jpg
+  upload: dist/assets/snowboarding.jpg
 
 - url: /(.*\.(gif|png|jpg|css|js)(|\.map))$
   static_files: dist/\1

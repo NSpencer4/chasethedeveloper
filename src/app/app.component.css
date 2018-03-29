@@ -1,16 +1,14 @@
 #home-container {
-  background-color: #252830;
-  height: 100%;
-  margin-bottom: 0;
-  overflow: hidden;
+    background-image: url('/columbus.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.overlay {
-    background-color: #111111;
-    left: 0px;
-    right: 0px;
-    opacity: 0.5;
-    filter: alpha(opacity=75);
+.background-tint {
+  background-color: #808080;
+  background-blend-mode: multiply;
 }
 
 #intro-container {
@@ -44,98 +42,139 @@
   font-weight: 700;
 }
 
-#profile {
-  background-color: #434242;
+#intro-container {
+    border: 1px solid #FFFFFF;
+    border-color: rgba(255,255,255,0.35);
+    padding: 30px;
+    position: absolute;
+    margin-left: 25%;
+    margin-right: 25%;
+    left: 0;
+    right: 0;
+    top: 40%;
 }
 
-#main-marquee {
-  padding-top: 48px;
-  padding-bottom: 48px;
-}
-
-.point-containers{
-  margin-bottom: 0;
-  margin-top: 0;
-}
-
-.division {
-  padding: 10px;
-}
-
-.points {
+#intro-name {
+  color: #fff;
+  padding: 20px;
   text-align: center;
-  font-size: 35px;
+  font-size: 60px;
   font-family: Catamaran,Helvetica,Arial,sans-serif;
-  border: 1px solid #22a39f;
-  border-bottom-color: #22a39f;
-  margin: 0 auto;
-  padding: 20px;
+  font-weight: 700;
+  border-bottom: 1px solid #FFFFFF;
+  border-bottom-color: rgba(255,255,255,0.35);
 }
 
-#profile-division {
-  background-color: #f3efe0;
+#intro-title{
+  color: #efefef;
+  text-align: center;
+  font-size: 30px;
+  font-family: Catamaran,Helvetica,Arial,sans-serif;
+  font-weight: 700;
 }
 
-#exp-division {
-  background-color: #efefef;
-  padding: 30px;
+#profile-section {
+  padding: 75px 0;
+  background: #f7f7f7;
 }
 
-#skills-division {
-  background-color: #f3efe0;
-}
-
-.row-padding {
-  padding: 20px;
-}
-
-#contact-division {
-  background-color: #efefef;
+.header-section {
   text-align: center;
 }
 
-.h2, h2 {
-  color: #22a39f;
+.title-section {
+  font-size: 3em;
+  font-weight: 700;
+  letter-spacing: 5px;
+  text-align: center;
+  color: #555555;
+  text-transform: uppercase;
+  padding: 20px 0;
 }
 
-.h3, h3 {
-  color: #22a39f;
+.spacing-bar {
+  background: #3ebdf0;
+  width: 100px;
+  height: 2px;
+  margin: auto;
 }
 
-.h4, h4 {
-  color: #22a39f;
+.subtitle-section {
+  text-align: center;
+  padding: 30px 0;
 }
 
-.h5, h5 {
-  color: #22a39f;
-  margin-bottom: 0;
+.subtitle-section p {
+  font-size: 1.5em;
 }
 
-.p, p {
-  color: #22a39f;
+.profile-pic {
+  border: 5px solid #333;
+  width: 225px;
+  height: 225px;
+  margin: 0 20px 20px 0;
 }
 
-.li, li {
-  color: #22a39f;
+img {
+  max-width: 100%;
 }
 
-.center {
+#skills-section {
+  padding: 75px 0;
+  background: #f7f7f7;
   text-align: center;
 }
 
-.top-spacing {
-  padding-top: 10px;
+#education-section {
+  padding: 75px 0;
+  background: #f7f7f7;
+  text-align: center;
 }
 
-video {
-  width: 2560px;
-  object-fit: fill;
+#experience-section {
+  padding: 75px 0;
+  background: #f7f7f7;
+  text-align: center;
 }
 
-.description-card {
-  min-height: 100px;
-  min-width: 100px;
-  background-color: #efefef;
+#portfolio-section {
+  padding: 75px 0;
+  background: #f7f7f7;
+  text-align: center;
+}
+
+#contact-section {
+  padding: 75px 0;
+  background: #f7f7f7;
+  text-align: center;
+}
+
+.donut-inner {
+   margin-top: -50%;
+   margin-bottom: 50%;
+}
+.donut-inner h5 {
+   margin-bottom: 5px;
+   margin-top: 0;
+}
+.donut-inner span {
+   font-size: 12px;
+}
+
+@media only screen and (max-width: 670px) {
+  #intro-container {
+    top: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  #intro-name {
+    font-size: 45px;
+  }
+
+  #intro-title {
+    font-size: 20px;
+  }
 }
 
 @media only screen and (max-width: 670px) {
