@@ -16,6 +16,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { MdIconModule } from '@angular/material';
 import { ChartModule } from 'primeng/components/chart/chart';
 import 'chart.js/dist/Chart.min.js';
+import {DialogModule} from 'primeng/components/dialog/dialog';
 
 // Components
 import { AppComponent } from './app.component';

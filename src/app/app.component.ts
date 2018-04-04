@@ -9,11 +9,12 @@ import { ContactFormService } from './services/contact-form.service';
   styleUrls: ['./app.component.css']
 })
 
-export class AppComponent implements OnInit{
+export class AppComponent implements OnInit {
   data1: any;
   data2: any;
   options: any;
   mail: any;
+  showForm: any;
 
   public constructor(private contactFormService: ContactFormService) {
     this.data1 = {
@@ -49,6 +50,7 @@ export class AppComponent implements OnInit{
       cutoutPercentage: 80
     };
     Chart.defaults.global.tooltips.enabled = false;
+    this.showForm = true;
   }
   ngOnInit() {
     this.mail = {
@@ -60,5 +62,6 @@ export class AppComponent implements OnInit{
 
   public sendMessage () {
     this.contactFormService.emailOwner(this.mail);
+    this.showForm = false;
   }
 }
