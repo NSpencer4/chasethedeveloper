@@ -3,20 +3,20 @@ a {
 }
 
 .card {
-    position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: #fff;
-    background-clip: border-box;
-    border: 1px solid rgba(0,0,0,.125);
-    border-radius: .25rem;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, .125);
+  border-radius: .25rem;
   padding: 10px;
 }
 
@@ -35,7 +35,7 @@ a {
 
 #intro-container {
   border: 1px solid #FFFFFF;
-  border-color: rgba(255,255,255,0.35);
+  border-color: rgba(255, 255, 255, 0.35);
   padding: 30px;
   position: absolute;
   margin-left: 25%;
@@ -53,10 +53,10 @@ a {
   font-family: "Titillium Web", sans-serif;
   font-weight: 700;
   border-bottom: 1px solid #FFFFFF;
-  border-bottom-color: rgba(255,255,255,0.35);
+  border-bottom-color: rgba(255, 255, 255, 0.35);
 }
 
-#intro-title{
+#intro-title {
   color: #efefef;
   text-align: center;
   font-size: 30px;
@@ -66,7 +66,7 @@ a {
 
 #intro-container {
   border: 1px solid #FFFFFF;
-  border-color: rgba(255,255,255,0.35);
+  border-color: rgba(255, 255, 255, 0.35);
   padding: 30px;
   position: absolute;
   margin-left: 25%;
@@ -84,10 +84,10 @@ a {
   font-family: "Titillium Web", sans-serif;
   font-weight: 700;
   border-bottom: 1px solid #FFFFFF;
-  border-bottom-color: rgba(255,255,255,0.35);
+  border-bottom-color: rgba(255, 255, 255, 0.35);
 }
 
-#intro-title{
+#intro-title {
   color: #efefef;
   text-align: center;
   font-size: 30px;
@@ -172,9 +172,9 @@ img {
 }
 
 .donut-inner {
-    margin-top: -65%;
-    margin-left: 25%;
-    width: 50%;
+  margin-top: -65%;
+  margin-left: 25%;
+  width: 50%;
 }
 
 .donut-inner-fa {
@@ -205,14 +205,15 @@ img {
 }
 
 #about-me-paragraph {
-    color: #000;
-    text-align: center;
-    font-weight: 300;
-    font-size: 21px;
-    line-height: 28px;
-    font-family: "Titillium Web", sans-serif;
-    transition: opacity 0.6s ease-out 0s;
+  color: #000;
+  text-align: center;
+  font-weight: 300;
+  font-size: 21px;
+  line-height: 28px;
+  font-family: "Titillium Web", sans-serif;
+  transition: opacity 0.6s ease-out 0s;
 }
+
 /*End about me*/
 /*Start Timeline*/
 .timeline-glyph {
@@ -263,7 +264,7 @@ img {
   bottom: 0;
   position: relative;
   width: 46%;
-  border: 1px solid rgba(0,0,0,.125);
+  border: 1px solid rgba(0, 0, 0, .125);
   padding: 30px;
   transition: all 0.5s ease-in-out 0s;
 }
@@ -295,30 +296,30 @@ img {
 }
 
 .timeline-card-body {
-    text-align: left;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    font-family: "Titillium Web", sans-serif;
+  text-align: left;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: "Titillium Web", sans-serif;
 }
 
 .timeline-card-company {
-    box-sizing: border-box;
-    letter-spacing: 0.5px;
-    text-transform: uppercase;
-    font: normal normal 400 normal 22px / 28.6px "Titillium Web", sans-serif;
-    margin: 24px 0 10px;
-    transition: all 0.5s ease-in-out 0s;
+  box-sizing: border-box;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  font: normal normal 400 normal 22px / 28.6px "Titillium Web", sans-serif;
+  margin: 24px 0 10px;
+  transition: all 0.5s ease-in-out 0s;
 }
 
 .timeline-card-position {
-    color: rgb(143, 143, 143);
-    height: 15px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    font: normal normal 500 normal 14px / 15.4px "Titillium Web", sans-serif;
-    margin: 10px 0 8px;
-    transition: all 0.5s ease-in-out 0s;
+  color: rgb(143, 143, 143);
+  height: 15px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font: normal normal 500 normal 14px / 15.4px "Titillium Web", sans-serif;
+  margin: 10px 0 8px;
+  transition: all 0.5s ease-in-out 0s;
 }
 
 .timeline-card-inverted {
@@ -327,7 +328,7 @@ img {
   bottom: 0;
   position: relative;
   width: 46%;
-  border: 1px solid rgba(0,0,0,.125);
+  border: 1px solid rgba(0, 0, 0, .125);
   padding: 30px;
   transition: all 0.5s ease-in-out 0s;
 }
@@ -385,13 +386,14 @@ img {
 }
 
 #timeline-bar-start {
-    background: #3ebdf0;
-    width: 55px;
-    height: 2px;
-    float: right;
-    margin-right: -8%;
+  background: #3ebdf0;
+  width: 55px;
+  height: 2px;
+  float: right;
+  margin-right: -8%;
   display: none;
 }
+
 /*End Timeline*/
 
 /*Start Portfolio*/
@@ -404,22 +406,27 @@ img {
 }
 
 .rounded {
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
 }
 
 .smaller-imgs {
   margin-top: 20%;
 }
 
-.portfolio-cards{
+.portfolio-cards {
   min-height: 222px;
 }
 
 .skill-cards {
   height: 194.81px;
 }
+
+.skill-cards, .portfolio-cards {
+  margin-bottom: 10px;
+}
+
 /*End Portfolio*/
 
 @media only screen and (max-width: 1200px) {
@@ -435,20 +442,20 @@ img {
     font-size: 22px;
   }
 
-    .timeline-glyph-div {
-  color: rgb(255, 255, 255);
-  height: 50px;
-  position: absolute;
-      right: 5.4%;
-  top: 16px;
-  width: 50px;
-  background: #3ebdf0 none repeat scroll 0 0 / auto padding-box border-box;
-  border: 3px solid rgba(0, 0, 0, 0);
-  border-radius: 50% 50% 50% 50%;
-  font-weight: 400;
-  font-size: 18.2px;
-  line-height: 50px;
-}
+  .timeline-glyph-div {
+    color: rgb(255, 255, 255);
+    height: 50px;
+    position: absolute;
+    right: 5.4%;
+    top: 16px;
+    width: 50px;
+    background: #3ebdf0 none repeat scroll 0 0 / auto padding-box border-box;
+    border: 3px solid rgba(0, 0, 0, 0);
+    border-radius: 50% 50% 50% 50%;
+    font-weight: 400;
+    font-size: 18.2px;
+    line-height: 50px;
+  }
 
   .timeline-glyph:before {
     content: ' ';
@@ -459,28 +466,30 @@ img {
     top: 0;
     width: 1px;
     background: rgb(143, 143, 143) none repeat scroll 0 0 / auto padding-box border-box;
-}
-#timeline-bar-start, #timeline-end-bar {
+  }
+
+  #timeline-bar-start, #timeline-end-bar {
     background: #3ebdf0;
     width: 55px;
     height: 2px;
     float: right;
-      margin-right: 5.4%;
+    margin-right: 5.4%;
     display: block;
-}
+  }
 
-.timeline-card, .timeline-card-inverted {
-      bottom: 0;
+  .timeline-card, .timeline-card-inverted {
+    bottom: 0;
     position: relative;
     width: 70%;
-    border: 1px solid rgba(0,0,0,.125);
+    border: 1px solid rgba(0, 0, 0, .125);
     padding: 30px;
     transition: all 0.5s ease-in-out 0s;
-      float: none;
-      margin: 0 auto;
-}
-.timeline-card-inverted:before {
-      content: ' ';
+    float: none;
+    margin: 0 auto;
+  }
+
+  .timeline-card-inverted:before {
+    content: ' ';
     position: absolute;
     right: -15px;
     top: 26px;
@@ -490,35 +499,39 @@ img {
     border-bottom: 15px solid rgba(0, 0, 0, 0);
     border-left: 15px solid rgb(143, 143, 143);
     transition: all 0.5s ease-in-out 0s;
-}
+  }
 }
 
 @media only screen and (max-width: 990px) {
-    #php-text {
+  #php-text {
     margin-top: 25%;
   }
-    #php-glyph {
+
+  #php-glyph {
     font-size: 60px;
   }
+
   .skill-cards {
     height: 255px;
   }
+
   .donut-inner {
     margin-top: -60%;
   }
+
   .donut-inner-fa {
     margin-bottom: 15%;
   }
-  .skill-cards {
-    margin-bottom: 10px;
+
+  .timeline-glyph-div {
+    right: 4.7%;
   }
-      .timeline-glyph-div {
-          right: 4.7%;
-      }
-      #timeline-bar-start, #timeline-end-bar {
-      margin-right: 4.4%;
+
+  #timeline-bar-start, #timeline-end-bar {
+    margin-right: 4.4%;
+  }
 }
-}
+
 @media only screen and (max-width: 800px) {
   #intro-container {
     top: 30%;
@@ -539,28 +552,30 @@ img {
     max-width: 50%;
   }
 
-    .donut-inner {
+  .donut-inner {
     margin-top: -32%;
   }
 
-    .skill-text {
+  .skill-text {
     margin-top: 15%;
-    }
+  }
 
-    #php-text {
-          margin-top: 15%;
-    }
+  #php-text {
+    margin-top: 15%;
+  }
 
-      #timeline-bar-start, #timeline-end-bar {
-      margin-right: 4%;
-}
-      .timeline-card, .timeline-card-inverted {
-        margin: 0;
-        width: 80%;
-      }
-      .timeline-glyph-div {
-        right: 4.5%;
-      }
+  #timeline-bar-start, #timeline-end-bar {
+    margin-right: 4%;
+  }
+
+  .timeline-card, .timeline-card-inverted {
+    margin: 0;
+    width: 80%;
+  }
+
+  .timeline-glyph-div {
+    right: 4.5%;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -569,43 +584,49 @@ img {
     max-width: 60%;
   }
 
-    .donut-inner {
-        margin-top: -40%;
+  .donut-inner {
+    margin-top: -40%;
   }
 
-    .skill-text {
-              margin-top: 7%;
+  .skill-text {
+    margin-top: 7%;
 
-    }
+  }
 
-    #php-text {
-                  margin-top: 16%;
-    }
+  #php-text {
+    margin-top: 16%;
+  }
 
-    .skill-cards {
-          height: 185px;
-    }
-          #timeline-bar-start, #timeline-end-bar {
-      margin-right: 0;
-}
-      .timeline-card, .timeline-card-inverted {
-        margin: 0;
-        width: 80%;
-      }
-      .timeline-glyph-div {
-        right: 0.5%;
-      }
-      .timeline-card-position {
-        margin: 10px 0 12px;
-      }
-      .timeline-card-dates {
-        width: 60%;
-      }
-      .timeline-glyph:before {
-            right: 6%;
-      }
+  .skill-cards {
+    height: 185px;
+  }
 
-          #php-glyph {
+  #timeline-bar-start, #timeline-end-bar {
+    margin-right: 0;
+  }
+
+  .timeline-card, .timeline-card-inverted {
+    margin: 0;
+    width: 80%;
+  }
+
+  .timeline-glyph-div {
+    right: 0.5%;
+  }
+
+  .timeline-card-position {
+    margin: 10px 0 12px;
+  }
+
+  .timeline-card-dates {
+    width: 60%;
+  }
+
+  .timeline-glyph:before {
+    right: 6%;
+  }
+
+  #php-glyph {
     font-size: 45px;
   }
 }
