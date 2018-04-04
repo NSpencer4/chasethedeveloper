@@ -23,6 +23,7 @@ import { HomepageComponent } from './components/homepage/homepage.component';
 
 // Services
 import { CookieService } from 'ngx-cookie-service';
+import {ContactFormService} from './services/contact-form.service';
 
 
 // Functions
@@ -64,7 +65,7 @@ import { FilterPipe } from './filter.pipe';
   ],
   entryComponents: [
   ],
-  providers: [],
+  providers: [ContactFormService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

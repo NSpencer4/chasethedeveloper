@@ -3,6 +3,9 @@ threadsafe: yes
 api_version: 1
 
 handlers:
+- url: /mailContact.*
+  script: server.mail.app
+
 - url: /(.*\.woff)
   mime_type: application/x-font-woff
   static_files: dist/\1
