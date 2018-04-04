@@ -190,30 +190,18 @@ img {
   margin-top: 25%;
 }
 
-@media only screen and (max-width: 670px) {
-  #intro-container {
-    top: 30%;
-    margin-left: 5%;
-    margin-right: 5%;
-  }
-
-  #intro-name {
-    font-size: 45px;
-  }
-
-  #intro-title {
-    font-size: 20px;
-  }
-}
-
 /*Start about me*/
 #about-me-img {
   box-shadow: #000 5px 3px 0 0;
-  width: 310px;
+  width: 60%;
   border: 15px solid rgba(0, 0, 0, 0);
   border-radius: 50% 50% 50% 50%;
-  margin: 0 0 40px;
+  margin-bottom: 40px;
   transition: transform 0.4s ease-out 0s, opacity 0.4s ease-out 0s, -webkit-transform 0.4s ease-out 0s;
+}
+
+#about-section {
+  text-align: center;
 }
 
 #about-me-paragraph {
@@ -420,9 +408,12 @@ img {
   min-height: 222px;
 }
 
+.skill-cards {
+  height: 194.81px;
+}
 /*End Portfolio*/
 
-@media only screen and (max-width: 385px) {
+@media only screen and (max-width: 1200px) {
   #php-glyph {
     font-size: 45px;
   }
@@ -431,12 +422,32 @@ img {
     margin-top: 38%;
   }
 
-  .skill-cards {
-    height: 194.81px;
+  .skill-text {
+    font-size: 22px;
   }
 }
 
-@media only screen and (max-width: 670px) {
+@media only screen and (max-width: 990px) {
+    #php-text {
+    margin-top: 25%;
+  }
+    #php-glyph {
+    font-size: 60px;
+  }
+  .skill-cards {
+    height: 255px;
+  }
+  .donut-inner {
+    margin-top: -60%;
+  }
+  .donut-inner-fa {
+    margin-bottom: 15%;
+  }
+  .skill-cards {
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (max-width: 800px) {
   #intro-container {
     top: 30%;
     margin-left: 5%;
@@ -450,4 +461,44 @@ img {
   #intro-title {
     font-size: 20px;
   }
+
+  p-chart {
+    margin: 0 auto;
+    max-width: 50%;
+  }
+
+    .donut-inner {
+    margin-top: -32%;
+  }
+
+    .skill-text {
+    margin-top: 15%;
+    }
+
+    #php-text {
+          margin-top: 15%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+  p-chart {
+    margin: 0 auto;
+    max-width: 100%;
+  }
+
+    .donut-inner {
+    margin-top: -64%;
+  }
+
+    .skill-text {
+    margin-top: 15%;
+    }
+
+    #php-text {
+          margin-top: 15%;
+    }
+
+    .skill-cards {
+          height: 185px;
+    }
 }
