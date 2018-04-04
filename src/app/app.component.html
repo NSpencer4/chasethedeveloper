@@ -1,5 +1,5 @@
 <div id="home-container" class="background-tint">
-  <div class="row">
+  <div class="row top-space">
     <div id="intro-container">
       <h1 id="intro-name">Chase Spencer</h1>
       <h2 id="intro-title">Software Developer</h2>
@@ -12,18 +12,21 @@
     <header class="header-section">
       <h2 class="title-section">About Me</h2>
       <div class="spacing-bar"></div>
-      <p class="subtitle-section">Hello, I'm Chase Spencer, a Software Developer based in the Columbus, Ohio area. </p>
     </header>
-    <div class="row">
-      <div class="col-md-3">
-        <div class="profile-pic"><img src="/snowboarding.jpg" alt="profile picture">
-        </div>
-      </div>
-      <div class="col-md-9">
-        <p>Motivated computer science student interested in designing and implementing software that solves complex and often times ambiguous business problems.</p>
-        <p>Excellent communicator with experience leading and training teams to ensure customer satisfaction.</p>
-        <p>Seeking opportunities that provide exposure to unique and interesting business problems that I can actively contribute to as I begin my career in this industry.</p>
-      </div>
+    <div class="row top-space">
+					<div class="col-sm-8 col-sm-offset-2">
+            <img src="/snowboarding.jpg" alt="" id="about-me-img" />
+            <p id="about-me-paragraph">
+              I am Nicholas "Chase" Spencer, a twenty two year old full-stack developer based in the Columbus, Ohio area.
+              <br/><br/>
+              I am a caffeine-driven developer interested in designing and implementing software that
+              solves complex and often times ambiguous business problems.
+              I am an excellent communicator with experience leading and training teams to ensure customer satisfaction.
+              <br/><br/>
+              Seeking opportunities that provide exposure to unique and interesting business problems that I can actively
+              contribute to and grow my technical knowledge in this ever evolving industry.
+            </p>
+					</div>
     </div>
   </div>
 </div>
@@ -40,63 +43,60 @@
 
     <div class="row top-space">
       <div class="col-md-2 col-xs-4">
-                      <div class="card">
-        <p-chart type="doughnut" [data]="data1" [options]="options"></p-chart>
-        <div class="donut-inner">
-          <i class="fab fa-php donut-inner-fa"></i>
+        <div class="card">
+          <p-chart type="doughnut" [data]="data1" [options]="options"></p-chart>
+          <div class="donut-inner">
+            <i class="fab fa-php donut-inner-fa"></i>
+          </div>
+          <h3 class="skill-text">PHP</h3>
         </div>
-        <h3 class="skill-text">PHP</h3>
       </div>
-      </div>
-
       <div class="col-md-2 col-xs-4">
         <div class="card">
-        <p-chart type="doughnut" [data]="data1" [options]="options"></p-chart>
-        <div class="donut-inner">
-          <i class="fab fa-drupal donut-inner-fa"></i>
+          <p-chart type="doughnut" [data]="data1" [options]="options"></p-chart>
+          <div class="donut-inner">
+            <i class="fab fa-drupal donut-inner-fa"></i>
+          </div>
+          <h3 class="skill-text skill-cards">Drupal</h3>
         </div>
-        <h3 class="skill-text skill-cards">Drupal</h3>
       </div>
-</div>
-            <div class="col-md-2 col-xs-4">
-              <div class="card">
-        <p-chart type="doughnut" [data]="data1" [options]="options"></p-chart>
-        <div class="donut-inner">
-          <i class="fab fa-angular donut-inner-fa"></i>
+      <div class="col-md-2 col-xs-4">
+        <div class="card">
+          <p-chart type="doughnut" [data]="data1" [options]="options"></p-chart>
+          <div class="donut-inner">
+            <i class="fab fa-angular donut-inner-fa"></i>
+          </div>
+          <h3 class="skill-text skill-cards">AngularJS</h3>
         </div>
-        <h3 class="skill-text skill-cards">AngularJS</h3>
       </div>
-</div>
-            <div class="col-md-2 col-xs-4">
-              <div class="card">
-        <p-chart type="doughnut" [data]="data1" [options]="options"></p-chart>
-        <div class="donut-inner">
-          <i class="fab fa-html5 donut-inner-fa"></i>
+      <div class="col-md-2 col-xs-4">
+        <div class="card">
+          <p-chart type="doughnut" [data]="data1" [options]="options"></p-chart>
+          <div class="donut-inner">
+            <i class="fab fa-html5 donut-inner-fa"></i>
+          </div>
+          <h3 class="skill-text skill-cards">HTML(5)</h3>
         </div>
-        <h3 class="skill-text skill-cards">HTML(5)</h3>
       </div>
-</div>
-            <div class="col-md-2 col-xs-4">
-              <div class="card">
-        <p-chart type="doughnut" [data]="data1" [options]="options"></p-chart>
-        <div class="donut-inner">
-          <i class="fab fa-css3 donut-inner-fa"></i>
+      <div class="col-md-2 col-xs-4">
+        <div class="card">
+          <p-chart type="doughnut" [data]="data1" [options]="options"></p-chart>
+          <div class="donut-inner">
+            <i class="fab fa-css3 donut-inner-fa"></i>
+          </div>
+          <h3 class="skill-text skill-cards">CSS(3)</h3>
         </div>
-        <h3 class="skill-text skill-cards">CSS(3)</h3>
       </div>
-</div>
-                  <div class="col-md-2 col-xs-4">
-                    <div class="card">
-        <p-chart type="doughnut" [data]="data1" [options]="options"></p-chart>
-        <div class="donut-inner">
-          <i class="fab fa-python donut-inner-fa"></i>
+      <div class="col-md-2 col-xs-4">
+        <div class="card">
+          <p-chart type="doughnut" [data]="data1" [options]="options"></p-chart>
+          <div class="donut-inner">
+            <i class="fab fa-python donut-inner-fa"></i>
+          </div>
+          <h3 class="skill-text skill-cards">Python</h3>
         </div>
-        <h3 class="skill-text skill-cards">Python</h3>
       </div>
-                    </div>
     </div>
-
-
   </div>
 </section>
 
@@ -106,16 +106,16 @@
       <h2 class="title-section"><span>Education</span></h2>
       <div class="spacing-bar"></div>
     </header>
-        <div class="row top-space">
-<div class="col-md-12">
+    <div class="row top-space">
+      <div class="col-md-12">
         <div id="wsu-pic"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/b/bd/Wright_State_University_logo.svg/1200px-Wright_State_University_logo.svg.png" alt="wsu"></div>
-</div>
-</div>
+      </div>
+    </div>
     <div class="row top-space">
 
-            <div class="col-md-12">
-            <h3>Wright State University</h3>
-            <p>Bachelor of Computer Science - <strong>Graduated:</strong> 2018</p>
+      <div class="col-md-12">
+        <h3>Wright State University</h3>
+        <p>Bachelor of Computer Science - <strong>Graduated:</strong> 2018</p>
       </div>
     </div>
   </div>
@@ -273,7 +273,7 @@
           </a>
         </div>
       </div>
-            <div class="col-md-3">
+      <div class="col-md-3">
         <div class="card portfolio-cards">
           <a href="https://roundup.com">
             <img src="https://scottsmiraclegro.com/wp-content/uploads/2016/03/rup.png" class="portfolio-img" alt="img">
@@ -297,14 +297,14 @@
           </a>
         </div>
       </div>
-            <div class="col-md-3">
+      <div class="col-md-3">
         <div class="card portfolio-cards">
           <a href="https://greatgardenssoil.com">
             <img src="https://www.greatgardenssoil.com/themes/custom/scotts_greatgardenssoil/logo.png" class="portfolio-img smaller-imgs" alt="img">
           </a>
         </div>
       </div>
-            <div class="col-md-3">
+      <div class="col-md-3">
         <div class="card portfolio-cards">
           <a href="https://supersoil.com">
             <img src="https://www.supersoil.com/themes/custom/scotts_supersoil/logo.png" class="portfolio-img smaller-imgs" alt="img">
@@ -314,14 +314,14 @@
     </div>
 
     <div class="row top-space">
-                  <div class="col-md-3">
+      <div class="col-md-3">
         <div class="card portfolio-cards">
           <a href="https://petroleumhistoryblog.com">
             <img src="https://petroleumhistoryblog.files.wordpress.com/2016/04/ohio-book-scan.jpg?w=316&h=449" class="portfolio-img" alt="img">
           </a>
         </div>
       </div>
-                  <div class="col-md-3">
+      <div class="col-md-3">
         <div class="card portfolio-cards">
           <a href="https://github.com/NSpencer4">
             <img src="http://www.goyalchetan.com/wp-content/uploads/2017/08/github-logo-NEW-min-300x300.png" class="portfolio-img" alt="img">
@@ -338,7 +338,7 @@
       <h2 class="title-section"><span>Contact</span></h2>
       <div class="spacing-bar"></div>
     </header>
-    <div class="row">
+    <div class="row top-space">
       <div class="col-sm-2"></div>
       <div class="col-sm-8">
         <form class="form-horizontal" id="contactForm" novalidate="">

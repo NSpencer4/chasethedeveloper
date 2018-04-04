@@ -50,7 +50,7 @@ a {
   padding: 20px;
   text-align: center;
   font-size: 60px;
-  font-family: 'Exo 2', sans-serif;
+  font-family: "Titillium Web", sans-serif;
   font-weight: 700;
   border-bottom: 1px solid #FFFFFF;
   border-bottom-color: rgba(255,255,255,0.35);
@@ -60,7 +60,7 @@ a {
   color: #efefef;
   text-align: center;
   font-size: 30px;
-  font-family: 'Exo 2', sans-serif;
+  font-family: "Titillium Web", sans-serif;
   font-weight: 700;
 }
 
@@ -81,7 +81,7 @@ a {
   padding: 20px;
   text-align: center;
   font-size: 60px;
-  font-family: 'Exo 2', sans-serif;
+  font-family: "Titillium Web", sans-serif;
   font-weight: 700;
   border-bottom: 1px solid #FFFFFF;
   border-bottom-color: rgba(255,255,255,0.35);
@@ -91,7 +91,7 @@ a {
   color: #efefef;
   text-align: center;
   font-size: 30px;
-  font-family: 'Exo 2', sans-serif;
+  font-family: "Titillium Web", sans-serif;
   font-weight: 700;
 }
 
@@ -211,6 +211,26 @@ img {
   }
 }
 
+/*Start about me*/
+#about-me-img {
+  box-shadow: #000 5px 3px 0 0;
+  width: 310px;
+  border: 15px solid rgba(0, 0, 0, 0);
+  border-radius: 50% 50% 50% 50%;
+  margin: 0 220px 40px;
+  transition: transform 0.4s ease-out 0s, opacity 0.4s ease-out 0s, -webkit-transform 0.4s ease-out 0s;
+}
+
+#about-me-paragraph {
+    color: #000;
+    text-align: center;
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 28px;
+    font-family: "Titillium Web", sans-serif;
+    transition: opacity 0.6s ease-out 0s;
+}
+/*End about me*/
 /*Start Timeline*/
 .timeline-glyph {
   position: relative;
@@ -286,7 +306,7 @@ img {
   background: rgb(103, 103, 103) none repeat scroll 0 0 / auto padding-box border-box;
   font-size: 12px;
   line-height: 19.2px;
-  font-family: 'Exo 2', sans-serif;
+  font-family: "Titillium Web", sans-serif;
   padding: 6px 18px;
   transition: all 0.5s ease-in-out 0s;
 }
@@ -296,14 +316,14 @@ img {
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
-    font-family: 'Exo 2', sans-serif;
+    font-family: "Titillium Web", sans-serif;
 }
 
 .timeline-card-company {
     box-sizing: border-box;
     letter-spacing: 0.5px;
     text-transform: uppercase;
-    font: normal normal 400 normal 22px / 28.6px "Exo 2", sans-serif;
+    font: normal normal 400 normal 22px / 28.6px "Titillium Web", sans-serif;
     margin: 24px 0 10px;
     transition: all 0.5s ease-in-out 0s;
 }
@@ -313,7 +333,7 @@ img {
     height: 15px;
     letter-spacing: 1px;
     text-transform: uppercase;
-    font: normal normal 500 normal 14px / 15.4px "Exo 2", sans-serif;
+    font: normal normal 500 normal 14px / 15.4px "Titillium Web", sans-serif;
     margin: 10px 0 8px;
     transition: all 0.5s ease-in-out 0s;
 }
