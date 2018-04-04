@@ -172,10 +172,9 @@ img {
 }
 
 .donut-inner {
-    margin-top: -68%;
-    height: 80px;
-    margin-left: 23%;
-    width: 80px;
+    margin-top: -65%;
+    margin-left: 25%;
+    width: 50%;
 }
 
 .donut-inner-fa {
@@ -189,10 +188,6 @@ img {
 
 .skill-text {
   margin-top: 25%;
-}
-
-.skill-cards {
-  margin-right: 10px;
 }
 
 @media only screen and (max-width: 670px) {
@@ -217,7 +212,7 @@ img {
   width: 310px;
   border: 15px solid rgba(0, 0, 0, 0);
   border-radius: 50% 50% 50% 50%;
-  margin: 0 220px 40px;
+  margin: 0 0 40px;
   transition: transform 0.4s ease-out 0s, opacity 0.4s ease-out 0s, -webkit-transform 0.4s ease-out 0s;
 }
 
@@ -426,6 +421,20 @@ img {
 }
 
 /*End Portfolio*/
+
+@media only screen and (max-width: 385px) {
+  #php-glyph {
+    font-size: 45px;
+  }
+
+  #php-text {
+    margin-top: 38%;
+  }
+
+  .skill-cards {
+    height: 194.81px;
+  }
+}
 
 @media only screen and (max-width: 670px) {
   #intro-container {
