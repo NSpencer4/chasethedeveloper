@@ -21,6 +21,10 @@ handlers:
   static_files: dist/assets/columbus.jpg
   upload: dist/assets/columbus.jpg
 
+- url: /omni.png
+  static_files: dist/assets/omni.png
+  upload: dist/assets/omni.png
+
 - url: /snowboarding.jpg
   static_files: dist/assets/snowboarding.jpg
   upload: dist/assets/snowboarding.jpg

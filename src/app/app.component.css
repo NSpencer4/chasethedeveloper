@@ -1,9 +1,9 @@
 #home-container {
-    background-image: url('/columbus.jpg');
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url('/columbus.jpg');
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .background-tint {
@@ -12,15 +12,15 @@
 }
 
 #intro-container {
-    border: 1px solid #FFFFFF;
-    border-color: rgba(255,255,255,0.35);
-    padding: 30px;
-    position: absolute;
-    margin-left: 25%;
-    margin-right: 25%;
-    left: 0;
-    right: 0;
-    top: 40%;
+  border: 1px solid #FFFFFF;
+  border-color: rgba(255,255,255,0.35);
+  padding: 30px;
+  position: absolute;
+  margin-left: 25%;
+  margin-right: 25%;
+  left: 0;
+  right: 0;
+  top: 40%;
 }
 
 #intro-name {
@@ -28,7 +28,7 @@
   padding: 20px;
   text-align: center;
   font-size: 60px;
-  font-family: Catamaran,Helvetica,Arial,sans-serif;
+  font-family: 'Exo 2', sans-serif;
   font-weight: 700;
   border-bottom: 1px solid #FFFFFF;
   border-bottom-color: rgba(255,255,255,0.35);
@@ -38,20 +38,20 @@
   color: #efefef;
   text-align: center;
   font-size: 30px;
-  font-family: Catamaran,Helvetica,Arial,sans-serif;
+  font-family: 'Exo 2', sans-serif;
   font-weight: 700;
 }
 
 #intro-container {
-    border: 1px solid #FFFFFF;
-    border-color: rgba(255,255,255,0.35);
-    padding: 30px;
-    position: absolute;
-    margin-left: 25%;
-    margin-right: 25%;
-    left: 0;
-    right: 0;
-    top: 40%;
+  border: 1px solid #FFFFFF;
+  border-color: rgba(255,255,255,0.35);
+  padding: 30px;
+  position: absolute;
+  margin-left: 25%;
+  margin-right: 25%;
+  left: 0;
+  right: 0;
+  top: 40%;
 }
 
 #intro-name {
@@ -59,7 +59,7 @@
   padding: 20px;
   text-align: center;
   font-size: 60px;
-  font-family: Catamaran,Helvetica,Arial,sans-serif;
+  font-family: 'Exo 2', sans-serif;
   font-weight: 700;
   border-bottom: 1px solid #FFFFFF;
   border-bottom-color: rgba(255,255,255,0.35);
@@ -69,7 +69,7 @@
   color: #efefef;
   text-align: center;
   font-size: 30px;
-  font-family: Catamaran,Helvetica,Arial,sans-serif;
+  font-family: 'Exo 2', sans-serif;
   font-weight: 700;
 }
 
@@ -150,15 +150,15 @@ img {
 }
 
 .donut-inner {
-   margin-top: -50%;
-   margin-bottom: 50%;
+  margin-top: -50%;
+  margin-bottom: 50%;
 }
 .donut-inner h5 {
-   margin-bottom: 5px;
-   margin-top: 0;
+  margin-bottom: 5px;
+  margin-top: 0;
 }
 .donut-inner span {
-   font-size: 12px;
+  font-size: 12px;
 }
 
 @media only screen and (max-width: 670px) {
@@ -176,6 +176,178 @@ img {
     font-size: 20px;
   }
 }
+
+/*Start Timeline*/
+.timeline-glyph {
+  position: relative;
+  padding: 20px 0;
+  list-style: none outside none;
+  margin: 0;
+}
+
+.timeline-glyph:before {
+  content: ' ';
+  height: 100%;
+  opacity: 0.3;
+  position: absolute;
+  right: 50%;
+  top: 0;
+  width: 1px;
+  background: rgb(143, 143, 143) none repeat scroll 0 0 / auto padding-box border-box;
+}
+
+.timeline-section {
+  position: relative;
+  margin: 0 0 20px;
+}
+
+.timeline-section:after {
+  clear: both;
+  content: ' ';
+  display: table;
+}
+
+.timeline-glyph-div {
+  color: rgb(255, 255, 255);
+  height: 50px;
+  position: absolute;
+  right: 545px;
+  top: 16px;
+  width: 50px;
+  background: #3ebdf0 none repeat scroll 0 0 / auto padding-box border-box;
+  border: 3px solid rgba(0, 0, 0, 0);
+  border-radius: 50% 50% 50% 50%;
+  font-weight: 400;
+  font-size: 18.2px;
+  line-height: 50px;
+}
+
+.timeline-card {
+  bottom: 0;
+  position: relative;
+  width: 46%;
+  border: 1px solid rgba(0,0,0,.125);
+  padding: 30px;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+.timeline-card:before {
+  content: ' ';
+  position: absolute;
+  right: -15px;
+  top: 26px;
+  width: 15px;
+  border-top: 15px solid rgba(0, 0, 0, 0);
+  border-right: 0 solid rgb(143, 143, 143);
+  border-bottom: 15px solid rgba(0, 0, 0, 0);
+  border-left: 15px solid rgb(143, 143, 143);
+  transition: all 0.5s ease-in-out 0s;
+}
+
+.timeline-card-dates {
+  color: rgb(255, 255, 255);
+  position: absolute;
+  text-transform: uppercase;
+  width: 32%;
+  background: rgb(103, 103, 103) none repeat scroll 0 0 / auto padding-box border-box;
+  font-size: 12px;
+  line-height: 19.2px;
+  font-family: 'Exo 2', sans-serif;
+  padding: 6px 18px;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+.timeline-card-body {
+    text-align: left;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.timeline-card-company {
+    box-sizing: border-box;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    font: normal normal 400 normal 22px / 28.6px "Exo 2", sans-serif;
+    margin: 24px 0 10px;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.timeline-card-position {
+    color: rgb(143, 143, 143);
+    height: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font: normal normal 500 normal 14px / 15.4px "Exo 2", sans-serif;
+    margin: 10px 0 8px;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.timeline-card-inverted {
+  color: rgb(47, 47, 47);
+  float: right;
+  bottom: 0;
+  position: relative;
+  width: 46%;
+  border: 1px solid rgba(0,0,0,.125);
+  padding: 30px;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+.timeline-card-inverted:before {
+  content: ' ';
+  position: absolute;
+  right: 522.391px;
+  top: 26px;
+  width: 15px;
+  border-top: 15px solid rgba(0, 0, 0, 0);
+  border-right: 15px solid rgb(143, 143, 143);
+  border-bottom: 15px solid rgba(0, 0, 0, 0);
+  border-left: 0 solid rgb(143, 143, 143);
+  transition: all 0.5s ease-in-out 0s;
+}
+
+#timeline-wsu-card-image {
+  min-height: 250px;
+  background: rgba(0, 0, 0, 0) url(https://i.ytimg.com/vi/Mh3-G1HemWY/maxresdefault.jpg) repeat scroll 50% 50% / cover padding-box border-box;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+#timeline-omni-card-image {
+  min-height: 250px;
+  background: rgba(0, 0, 0, 0) url("/omni.png") repeat scroll 50% 50% / cover padding-box border-box;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+#timeline-smg-intern-card-image {
+  min-height: 250px;
+  background: rgba(0, 0, 0, 0) url("https://mir-s3-cdn-cf.behance.net/project_modules/fs/cc86d11317771.58a4b9ce6e078.jpg") repeat scroll 50% 50% / cover padding-box border-box;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+#timeline-smg-card-image {
+  min-height: 250px;
+  background: rgba(0, 0, 0, 0) url("https://www.nyse.com/publicdocs/nyse/events/images/Scotts-MiracleGro-Company_640x360.png") repeat scroll 50% 50% / cover padding-box border-box;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+#timeline-end-bar {
+  background: #3ebdf0;
+  width: 100px;
+  height: 3px;
+  margin: auto;
+}
+
+.timeline-fa {
+  font-size: 30px;
+}
+
+.timeline-list {
+  padding-left: 4%;
+}
+
+/*End Timeline*/
 
 @media only screen and (max-width: 670px) {
   #intro-container {
