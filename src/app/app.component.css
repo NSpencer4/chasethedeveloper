@@ -1,3 +1,25 @@
+a {
+  color: rgb(47, 47, 47);
+}
+
+.card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+  padding: 10px;
+}
+
 #home-container {
   background-image: url('/columbus.jpg');
   height: 100%;
@@ -150,15 +172,27 @@ img {
 }
 
 .donut-inner {
-  margin-top: -50%;
-  margin-bottom: 50%;
+    margin-top: -68%;
+    height: 80px;
+    margin-left: 23%;
+    width: 80px;
 }
-.donut-inner h5 {
-  margin-bottom: 5px;
-  margin-top: 0;
+
+.donut-inner-fa {
+  font-size: 60px;
 }
-.donut-inner span {
-  font-size: 12px;
+
+#wsu-pic {
+  max-width: 30%;
+  margin: 0 auto;
+}
+
+.skill-text {
+  margin-top: 25%;
+}
+
+.skill-cards {
+  margin-right: 10px;
 }
 
 @media only screen and (max-width: 670px) {
@@ -346,8 +380,32 @@ img {
 .timeline-list {
   padding-left: 4%;
 }
-
 /*End Timeline*/
+
+/*Start Portfolio*/
+.portfolio-img {
+  max-height: 200px;
+}
+
+.top-space {
+  margin-top: 20px;
+}
+
+.rounded {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.smaller-imgs {
+  margin-top: 20%;
+}
+
+.portfolio-cards{
+  min-height: 222px;
+}
+
+/*End Portfolio*/
 
 @media only screen and (max-width: 670px) {
   #intro-container {
