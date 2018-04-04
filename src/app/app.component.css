@@ -248,7 +248,7 @@ img {
   color: rgb(255, 255, 255);
   height: 50px;
   position: absolute;
-  right: 545px;
+  right: 47.8%;
   top: 16px;
   width: 50px;
   background: #3ebdf0 none repeat scroll 0 0 / auto padding-box border-box;
@@ -383,6 +383,15 @@ img {
 .timeline-list {
   padding-left: 4%;
 }
+
+#timeline-bar-start {
+    background: #3ebdf0;
+    width: 55px;
+    height: 2px;
+    float: right;
+    margin-right: -8%;
+  display: none;
+}
 /*End Timeline*/
 
 /*Start Portfolio*/
@@ -425,6 +434,63 @@ img {
   .skill-text {
     font-size: 22px;
   }
+
+    .timeline-glyph-div {
+  color: rgb(255, 255, 255);
+  height: 50px;
+  position: absolute;
+      right: 5.4%;
+  top: 16px;
+  width: 50px;
+  background: #3ebdf0 none repeat scroll 0 0 / auto padding-box border-box;
+  border: 3px solid rgba(0, 0, 0, 0);
+  border-radius: 50% 50% 50% 50%;
+  font-weight: 400;
+  font-size: 18.2px;
+  line-height: 50px;
+}
+
+  .timeline-glyph:before {
+    content: ' ';
+    height: 100%;
+    opacity: 0.3;
+    position: absolute;
+    right: 8%;
+    top: 0;
+    width: 1px;
+    background: rgb(143, 143, 143) none repeat scroll 0 0 / auto padding-box border-box;
+}
+#timeline-bar-start, #timeline-end-bar {
+    background: #3ebdf0;
+    width: 55px;
+    height: 2px;
+    float: right;
+      margin-right: 5.4%;
+    display: block;
+}
+
+.timeline-card, .timeline-card-inverted {
+      bottom: 0;
+    position: relative;
+    width: 70%;
+    border: 1px solid rgba(0,0,0,.125);
+    padding: 30px;
+    transition: all 0.5s ease-in-out 0s;
+      float: none;
+      margin: 0 auto;
+}
+.timeline-card-inverted:before {
+      content: ' ';
+    position: absolute;
+    right: -15px;
+    top: 26px;
+    width: 15px;
+    border-top: 15px solid rgba(0, 0, 0, 0);
+    border-right: 0 solid rgb(143, 143, 143);
+    border-bottom: 15px solid rgba(0, 0, 0, 0);
+    border-left: 15px solid rgb(143, 143, 143);
+    transition: all 0.5s ease-in-out 0s;
+}
 }
 
 @media only screen and (max-width: 990px) {
@@ -446,6 +512,12 @@ img {
   .skill-cards {
     margin-bottom: 10px;
   }
+      .timeline-glyph-div {
+          right: 4.7%;
+      }
+      #timeline-bar-start, #timeline-end-bar {
+      margin-right: 4.4%;
+}
 }
 @media only screen and (max-width: 800px) {
   #intro-container {
@@ -478,27 +550,62 @@ img {
     #php-text {
           margin-top: 15%;
     }
+
+      #timeline-bar-start, #timeline-end-bar {
+      margin-right: 4%;
+}
+      .timeline-card, .timeline-card-inverted {
+        margin: 0;
+        width: 80%;
+      }
+      .timeline-glyph-div {
+        right: 4.5%;
+      }
 }
 
 @media only screen and (max-width: 600px) {
   p-chart {
     margin: 0 auto;
-    max-width: 100%;
+    max-width: 60%;
   }
 
     .donut-inner {
-    margin-top: -64%;
+        margin-top: -40%;
   }
 
     .skill-text {
-    margin-top: 15%;
+              margin-top: 7%;
+
     }
 
     #php-text {
-          margin-top: 15%;
+                  margin-top: 16%;
     }
 
     .skill-cards {
           height: 185px;
     }
+          #timeline-bar-start, #timeline-end-bar {
+      margin-right: 0;
+}
+      .timeline-card, .timeline-card-inverted {
+        margin: 0;
+        width: 80%;
+      }
+      .timeline-glyph-div {
+        right: 0.5%;
+      }
+      .timeline-card-position {
+        margin: 10px 0 12px;
+      }
+      .timeline-card-dates {
+        width: 60%;
+      }
+      .timeline-glyph:before {
+            right: 6%;
+      }
+
+          #php-glyph {
+    font-size: 45px;
+  }
 }
