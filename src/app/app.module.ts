@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule, APP_INITIALIZER } from '@angular/core';
+import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -16,24 +16,23 @@ import { AppRoutingModule } from './app-routing.module';
 import { MdIconModule } from '@angular/material';
 import { ChartModule } from 'primeng/components/chart/chart';
 import 'chart.js/dist/Chart.min.js';
-import {DialogModule} from 'primeng/components/dialog/dialog';
 
 // Components
 import { AppComponent } from './app.component';
-import { HomepageComponent } from './components/homepage/homepage.component';
 
 // Services
-import { CookieService } from 'ngx-cookie-service';
-import {ContactFormService} from './services/contact-form.service';
+import { ContactFormService } from './services/contact-form.service';
 
 
 // Functions
-import { FilterPipe } from './filter.pipe';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
+import { HomepageComponent } from './components/homepage/homepage.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
+    DashboardComponent,
     HomepageComponent,
   ],
   imports: [
