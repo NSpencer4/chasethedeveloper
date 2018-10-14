@@ -3,8 +3,11 @@ threadsafe: yes
 api_version: 1
 
 handlers:
-- url: /mailContact.*
+- url: /api/mailContact.*
   script: server.mail.app
+
+- url: /api/stocks.*
+  script: server.stocks.app
 
 - url: /(.*\.woff)
   mime_type: application/x-font-woff

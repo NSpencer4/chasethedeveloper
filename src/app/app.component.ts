@@ -1,7 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import { ChartModule } from 'primeng/components/chart/chart';
 import { Chart } from 'chart.js';
-import { ContactFormService } from './services/contact-form.service';
+import { ContactFormService } from './services/contact-form/contact-form.service';
 
 @Component({
   selector: 'app-root',

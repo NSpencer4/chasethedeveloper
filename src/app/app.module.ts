@@ -21,12 +21,13 @@ import 'chart.js/dist/Chart.min.js';
 import { AppComponent } from './app.component';
 
 // Services
-import { ContactFormService } from './services/contact-form.service';
+import { ContactFormService } from './services/contact-form/contact-form.service';
 
 
 // Functions
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { HomepageComponent } from './components/homepage/homepage.component';
+import { StocksService } from './services/stocks/stocks.service';
 
 
 @NgModule({
@@ -65,7 +66,7 @@ import { HomepageComponent } from './components/homepage/homepage.component';
   ],
   entryComponents: [
   ],
-  providers: [ContactFormService],
+  providers: [ContactFormService, StocksService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
