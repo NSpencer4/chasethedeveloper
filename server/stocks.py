@@ -31,7 +31,20 @@ class StockInfoRequest(APIRequest):
             self.abort(code=400, detail=e.message)
 
 
+# Gets the news of a given stock ticker
+class StockNewsRequest(APIRequest):
+    def get(self):
+        try:
+            stock_ticker = self.request.url.rsplit('/', 1)[1].lower()
+            api_response = requests.get(STOCK_API_PREFIX + stock_ticker + "/news/last/5")
+            response = api_response.text
+            self.response.out.write(response)
+        except ValueError as e:
+            self.abort(code=400, detail=e.message)
+
+
 app = webapp2.WSGIApplication([
-    ('/api/stocks/stock-price.*', StockPriceRequest),
-    ('/api/stocks/company-info.*', StockInfoRequest)
+    ('/api/stocks/stock/price.*', StockPriceRequest),
+    ('/api/stocks/company/info.*', StockInfoRequest),
+    ('/api/stocks/company/news.*', StockNewsRequest)
 ])

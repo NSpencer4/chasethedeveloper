@@ -16,8 +16,12 @@ export class DashboardComponent implements OnInit {
         console.dir(resp1);
       });
       this.stocksService.getCompanyInfo('AAPL').subscribe(
-      resp => {
-        console.dir(resp);
+      resp2 => {
+        console.dir(resp2);
+      });
+      this.stocksService.getCompanyNews('AAPL').subscribe(
+      resp3 => {
+        console.dir(resp3);
       });
   }
 
