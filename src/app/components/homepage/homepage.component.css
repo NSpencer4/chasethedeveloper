@@ -375,7 +375,7 @@ img {
 .timeline-card-inverted:before {
   content: ' ';
   position: absolute;
-  right: 522.391px;
+  right: 510px;
   top: 26px;
   width: 15px;
   border-top: 15px solid rgba(0, 0, 0, 0);
