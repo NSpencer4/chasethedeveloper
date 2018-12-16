@@ -54,7 +54,7 @@ a {
   padding: 20px;
   text-align: center;
   font-size: 60px;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Open Sans", Arial;
   font-weight: 700;
   border-bottom: 1px solid #FFFFFF;
   border-bottom-color: rgba(255, 255, 255, 0.35);
@@ -64,7 +64,7 @@ a {
   color: #efefef;
   text-align: center;
   font-size: 30px;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Open Sans", Arial;
   font-weight: 700;
 }
 
@@ -85,7 +85,7 @@ a {
   padding: 20px;
   text-align: center;
   font-size: 60px;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Open Sans", Arial;
   font-weight: 700;
   border-bottom: 1px solid #FFFFFF;
   border-bottom-color: rgba(255, 255, 255, 0.35);
@@ -95,7 +95,7 @@ a {
   color: #efefef;
   text-align: center;
   font-size: 30px;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Open Sans", Arial;
   font-weight: 700;
 }
 
@@ -106,6 +106,7 @@ a {
 
 .header-section {
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .title-section {
@@ -143,6 +144,39 @@ a {
 
 img {
   max-width: 100%;
+}
+
+.no-negative-margin {
+  margin: 0;
+}
+
+.skills-img-div {
+  color: rgb(255, 255, 255);
+  width: 100%;
+  position: relative;
+  background: #3ebdf0 none repeat scroll 0 0 / auto padding-box border-box;
+  border: 3px solid rgba(0, 0, 0, 0);
+  border-radius: 50% 50% 50% 50%;
+  font-weight: 400;
+  font-size: 18.2px;
+  margin: 0 auto;
+  line-height: 50px;
+}
+
+.skills-fa {
+  font-size: 3em;
+  margin-top: 10px;
+}
+
+@media only screen and (min-width: 990px) {
+  .skills-fa {
+    font-size: 5em;
+    margin-top: 10px;
+  }
+  .skills-img-div {
+    color: rgb(255, 255, 255);
+    width: 50%;
+  }
 }
 
 #skills-section {
@@ -205,6 +239,7 @@ img {
 }
 
 #about-section {
+  margin: 0 auto;
   text-align: center;
 }
 
@@ -214,7 +249,7 @@ img {
   font-weight: 300;
   font-size: 21px;
   line-height: 28px;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Open Sans", Arial;
   transition: opacity 0.6s ease-out 0s;
 }
 
@@ -294,7 +329,7 @@ img {
   background: rgb(103, 103, 103) none repeat scroll 0 0 / auto padding-box border-box;
   font-size: 12px;
   line-height: 19.2px;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Open Sans", Arial;
   padding: 6px 18px;
   transition: all 0.5s ease-in-out 0s;
 }
@@ -304,14 +339,14 @@ img {
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
-  font-family: "Titillium Web", sans-serif;
+  font-family: "Open Sans", Arial;
 }
 
 .timeline-card-company {
   box-sizing: border-box;
   letter-spacing: 0.5px;
   text-transform: uppercase;
-  font: normal normal 400 normal 22px / 28.6px "Titillium Web", sans-serif;
+  font: normal normal 400 normal 22px / 28.6px "Open Sans", Arial;
   margin: 24px 0 10px;
   transition: all 0.5s ease-in-out 0s;
 }
@@ -321,7 +356,7 @@ img {
   height: 15px;
   letter-spacing: 1px;
   text-transform: uppercase;
-  font: normal normal 500 normal 14px / 15.4px "Titillium Web", sans-serif;
+  font: normal normal 500 normal 14px / 15.4px "Open Sans", Arial;
   margin: 10px 0 8px;
   transition: all 0.5s ease-in-out 0s;
 }
@@ -352,27 +387,58 @@ img {
 
 #timeline-wsu-card-image {
   min-height: 250px;
-  background: rgba(0, 0, 0, 0) url(https://i.ytimg.com/vi/Mh3-G1HemWY/maxresdefault.jpg) repeat scroll 50% 50% / cover padding-box border-box;
+  background: rgba(0, 0, 0, 0) url(https://i.ytimg.com/vi/Mh3-G1HemWY/maxresdefault.jpg);
+  background-size: 100%;
   transition: all 0.5s ease-in-out 0s;
+  background-repeat: no-repeat;
+  background-position-y: -25px;
 }
 
 #timeline-omni-card-image {
   min-height: 250px;
-  background: rgba(0, 0, 0, 0) url("/omni.png") repeat scroll 50% 50% / cover padding-box border-box;
+  background: rgba(0, 0, 0, 0) url("/omni.png");
+  background-size: 100%;
   transition: all 0.5s ease-in-out 0s;
+  background-repeat: no-repeat;
 }
 
 #timeline-smg-intern-card-image {
   min-height: 250px;
-  background: rgba(0, 0, 0, 0) url("https://mir-s3-cdn-cf.behance.net/project_modules/fs/cc86d11317771.58a4b9ce6e078.jpg") repeat scroll 50% 50% / cover padding-box border-box;
+  background: rgba(0, 0, 0, 0) url("https://mir-s3-cdn-cf.behance.net/project_modules/fs/cc86d11317771.58a4b9ce6e078.jpg");
+  background-size: 100%;
   transition: all 0.5s ease-in-out 0s;
+  background-repeat: no-repeat;
 }
 
 #timeline-smg-card-image {
   min-height: 250px;
-  background: rgba(0, 0, 0, 0) url("https://www.nyse.com/publicdocs/nyse/events/images/Scotts-MiracleGro-Company_640x360.png") repeat scroll 50% 50% / cover padding-box border-box;
+  background: rgba(0, 0, 0, 0) url("https://www.nyse.com/publicdocs/nyse/events/images/Scotts-MiracleGro-Company_640x360.png");
+  background-size: 100%;
   transition: all 0.5s ease-in-out 0s;
+  background-repeat: no-repeat;
 }
+
+#timeline-cardinal-card-image {
+  min-height: 240px;
+  background: rgba(0, 0, 0, 0) url("/Cardinal_Health_Logo.png");
+  background-size: 100%;
+  transition: all 0.5s ease-in-out 0s;
+  background-repeat: no-repeat;
+  background-position-x: -30px;
+  background-position-y: 40px;
+}
+
+@media only screen and (max-width: 479px) {
+  #timeline-wsu-card-image,
+  #timeline-omni-card-image,
+  #timeline-smg-intern-card-image,
+  #timeline-smg-card-image,
+  #timeline-cardinal-card-image {
+    background-position-x: 0;
+    background-position-y: 65%;
+  }
+}
+
 
 #timeline-end-bar {
   background: #3ebdf0;

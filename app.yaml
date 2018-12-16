@@ -27,6 +27,10 @@ handlers:
   static_files: dist/assets/columbus.jpg
   upload: dist/assets/columbus.jpg
 
+- url: /Cardinal_Health_Logo.png
+  static_files: dist/assets/Cardinal_Health_Logo.png
+  upload: dist/assets/Cardinal_Health_Logo.png
+
 - url: /omni.png
   static_files: dist/assets/omni.png
   upload: dist/assets/omni.png
